@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitMachine2", "FruitMachine2.csproj", "{77D62846-9094-4CD1-A21C-81C8A491A167}"
+	ProjectSection(ProjectDependencies) = postProject
+		{58532916-FBAD-4687-A4CD-E113C6710D41} = {58532916-FBAD-4687-A4CD-E113C6710D41}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigBoyEngine", "..\BigBoyEngine\BigBoyEngine.csproj", "{58532916-FBAD-4687-A4CD-E113C6710D41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77D62846-9094-4CD1-A21C-81C8A491A167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D62846-9094-4CD1-A21C-81C8A491A167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D62846-9094-4CD1-A21C-81C8A491A167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D62846-9094-4CD1-A21C-81C8A491A167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58532916-FBAD-4687-A4CD-E113C6710D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58532916-FBAD-4687-A4CD-E113C6710D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58532916-FBAD-4687-A4CD-E113C6710D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58532916-FBAD-4687-A4CD-E113C6710D41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04170851-21AB-4B95-8486-E10CBD0B2E6F}
+	EndGlobalSection
+EndGlobal
